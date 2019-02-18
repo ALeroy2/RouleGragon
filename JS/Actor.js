@@ -4,6 +4,6 @@ class Actor {
     this.image = options.image
   }
   fight(){
-    
+
   }
 }
