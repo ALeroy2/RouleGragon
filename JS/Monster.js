@@ -1,2 +1,3 @@
-class Monster extends Actor{
+export default class Monster extends Actor{
+  
 }
