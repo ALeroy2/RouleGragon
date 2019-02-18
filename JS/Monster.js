@@ -1,6 +1,8 @@
+import Actor from "./Actor.js";
+
 export default class Monster extends Actor{
   constructor (options)  {
-    super(options.name,options.image);
+    super(options);
     this.health = 300;
   }
 }
