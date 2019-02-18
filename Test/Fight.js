@@ -1,3 +1,3 @@
-import Monster from "/JS/Monster.js";
- let mon = new Monster("Pierre","test");
- alert(mon.toString());
+import Monster from "../JS/Monster.js";
+var mon = new Monster("Pierre","test");
+alert(mon.name);
