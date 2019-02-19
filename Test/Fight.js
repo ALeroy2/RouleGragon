@@ -24,3 +24,7 @@ img_mob.appendTo('#ok');
 
 var nom_player =  $('<p> name:'+play.name+' life: '+play.life+'</p>');
 nom_player.appendTo('#ok');
+
+alert(play.life);
+mon.fight({target:play});
+alert(play.life);
