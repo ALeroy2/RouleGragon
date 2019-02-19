@@ -5,7 +5,7 @@ export default class Firebase{
       authDomain: "roulegragon-18365.firebaseapp.com",
       databaseURL: "https://roulegragon-18365.firebaseio.com",
       projectId: "roulegragon-18365",
-      storageBucket: "",
+      storageBucket: "roulegragon-18365.appspot.com",
       messagingSenderId: "172810608437"
     };
     firebase.initializeApp(config);
