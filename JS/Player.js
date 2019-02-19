@@ -5,6 +5,7 @@ class Player extends Actor{
 constructor(options){
   super(options);
   this.couleur = '#0000FF';
+  this.team = options.team;
 }
 
 }
