@@ -7,7 +7,7 @@ class Actor {
     this.defence = options.defence
   }
   fight(options){
-    options.target.life = options.target.life-( this.attack - options.target.defence);
+    options.target.life = options.target.life -( this.attack - options.target.defence);
   }
 }
 
