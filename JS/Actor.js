@@ -3,7 +3,7 @@ class Actor {
     this.name = options.name;
     this.image = options.image;
     this.life = options.life;
-    this.attack = options.attacks;
+    this.attack = options.attack;
     this.shield = options.shield
   }
   fight(){
